@@ -1,0 +1,94 @@
+Contenidors i microserveis
+12 Sept 2018
+
+Dario Castañé
+Engisoft Cloud Services
+https://dario.im
+https://github.com/imdario
+@im_dario
+
+* Què és un contenidor?
+
+.image images/800px-Barcelona_recycling_bins.jpg _ 650
+
+.caption Fotografia per William Avery (CC BY-SA 3.0)
+
+* Què és un contenidor? Ara sí!
+
+Paquet de programari executable
+
+- Estàndar
+- Lleuger
+- Segur
+
+.image images/container-what-is-container.png _ 400
+
+: Estàndar: el mateix paquet pot funcionar en qualsevol infraestructura on Docker funcioni.
+: Lleuger: a banda d'incloure tot el que necessita el programari, comparteix el kernel del sistema.
+: Segur: els contenidors estan aïllats uns d'altres. 
+
+* Màquines virtuals i contenidors
+
+.image images/docker-containerized-and-vm-transparent-bg.png _ 980
+
+* Per què emprar contenidors?
+
+- Facilitat d'orquestració
+- Facilitat d'automatització
+- Programari autosuficient i portable
+- Execució aïllada
+
+.image images/X-All-The-Y.png _ 400
+
+* Docker
+
+.image images/horizontal.png _ 980
+
+* Imatges
+
+.image images/images.png _ 980
+
+* Execució: docker run
+
+.image images/run.png _ 980
+
+* Creació: Dockerfile
+
+.code example/Dockerfile
+
+.image images/build.png _ 980
+
+* Composició: Docker Compose
+
+.code example/docker-compose.yml
+
+.image images/compose.png _ 175
+
+* Repositori: Docker Hub
+
+.image images/hub.png _ 980
+
+: Els proveïdors cloud també ofereixen repositoris propis.
+
+* Què hi ha més enllà?
+
+- Kubernetes
+- Amazon Elastic Container Service / AWS Fargate
+- Azure Containers / Azure Kubernetes Service
+- Google Kubernetes Engine / App Engine Flex
+- CoreOS Container Linux
+- Nomad by HashiCorp
+
+: Kubernetes és una plataforma d'orquestració per a desplegament, escalament i gestió d'aplicacions en contenidors.
+: CoreOS és una distribució GNU/Linux mínima per a contenidors. Però a més tenen projectes com etcd (emmagatzematge clau-valor), Prometheus (monitoreig), etc.
+: Nomad és una eina per a orquestrar càrregues de treball.
+
+Pausa publicitària:
+
+.image images/engisoft.png _ 490
+
+* Contenidors i microserveis
+
+- Un microservei, un contenidor
+- Una imatge, múltiples entorns
+- Distribució i orquestració àgils
