@@ -83,9 +83,9 @@ Paquet de programari executable
 : CoreOS és una distribució GNU/Linux mínima per a contenidors. Però a més tenen projectes com etcd (emmagatzematge clau-valor), Prometheus (monitoreig), etc.
 : Nomad és una eina per a orquestrar càrregues de treball.
 
-Pausa publicitària:
-
 .image images/engisoft.png _ 490
+
+.caption La falca! :)
 
 * Contenidors i microserveis
 
